@@ -1,0 +1,8 @@
+# Compiled source #
+###################
+
+*.exe
+cpp/.vscode/launch.json
+cpp/.vscode/settings.json
+cpp/.vscode/tasks.json
+cpp/tempCodeRunnerFile.cpp
