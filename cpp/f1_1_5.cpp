@@ -14,8 +14,8 @@ int main()
     cout << "time 2? ";
     cin >> t2h >> c >> t2m >> c >> t2s; //take in the 2nd time
 
-    if ((t1s + t2s) >= 60)
-    { //convert seconds to minutes
+    if ((t1s + t2s) >= 60) //convert seconds to minutes
+    {
         t1m++;
         ts = (t1s + t2s) - 60;
     }
