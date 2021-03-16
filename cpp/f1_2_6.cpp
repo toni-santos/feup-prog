@@ -3,13 +3,14 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     float n, q, j, amnt;
 
     cout << "n,q,j" << endl;
     cin >> n >> q >> j;
 
-    amnt = q*pow(1+(j/100),n);
+    amnt = q * pow(1 + (j / 100), n);
 
     cout << amnt << endl;
 
