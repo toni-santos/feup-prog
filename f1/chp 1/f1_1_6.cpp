@@ -23,7 +23,7 @@ int main()
     s = (dAB + dAC + dCB) / 2;
     area = sqrt(s * (s - dAB) * (s - dAC) * (s - dCB));
 
-    cout << "The area of the triangle is: " << dAB;
+    cout << "The area of the triangle is: " << area;
 
     return 0;
 }
