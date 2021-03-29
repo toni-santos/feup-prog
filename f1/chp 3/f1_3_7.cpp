@@ -11,18 +11,29 @@ int main()
 {
     int x;
 
+    cout << "input num? " << endl;
+    cin >> x;
+
+    if (readInt(x))
+    {
+        cout << "integer" << endl;
+    }
+    else
+    {
+        cout << "not an integer" << endl;
+    }
+
     return 0;
 }
 
 bool readInt(int &x)
 {
+    bool works=false;
 
-    if (x__is_integer)
+    if (cin.good() && cin.peek() == '\n')
     {
-        return false;
+        works=true;
+        return works;
     }
-    else
-    {
-        return true;
-    }
+    return works;
 }
